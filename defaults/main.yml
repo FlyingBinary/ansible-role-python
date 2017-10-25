@@ -1,5 +1,5 @@
 ---
 
-requirements_list: files/py2_reqs.txt
+requirements_list: /usr/local/superlinux/roles/IanTaylorFB.superlinux-python/files/py2_reqs.txt
 env_name: /usr/local/src/py2dev
 env_python: python2.7
