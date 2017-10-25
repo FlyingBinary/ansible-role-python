@@ -1,0 +1,14 @@
+---
+
+- name: Install VirtualEnv
+  become: yes
+  pip:
+    name: virtualenv
+
+- name: Install python packages
+  become: yes
+  pip:
+    requirements: "{{ requirements_list }}"
+    virtualenv: "{{ env_name }}"
+    virtualenv_python: "{{ env_python }}"
+    virtualenv_site_packages: no

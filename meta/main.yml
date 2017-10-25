@@ -1,0 +1,16 @@
+---
+
+galaxy_info:
+  author: Ian Taylor
+  description: Ansible role to install a user-defined selection of Python packages on the computer. This role is part of the Superlinux project that aims to simplify repeat computer setups on Debian.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: Debian
+      versions:
+        - all
+  categories:
+    - system
+dependencies:
+  - name: IanTaylorFB.superlumic-python
+    version: fbmaster

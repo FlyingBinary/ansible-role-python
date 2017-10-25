@@ -1,0 +1,6 @@
+---
+
+requirements: files/py2_reqs.txt
+virtualenv: /usr/local/src/py2dev
+virtualenv_python: python2.7
+virtualenv_site_packages: no
