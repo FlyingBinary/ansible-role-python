@@ -11,6 +11,4 @@ galaxy_info:
         - all
   categories:
     - system
-dependencies:
-  - name: IanTaylorFB.superlumic-python
-    version: fbmaster
+dependencies: []
